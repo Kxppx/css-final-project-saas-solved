@@ -1,0 +1,341 @@
+@media (min-width: 1024px) {
+  .container {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  .plan:hover {
+    box-shadow: 0 10px 20px #00000026;
+  }
+  a:hover {
+    color: #2476FF;
+    border-color: #2476FF;
+  }
+  button:hover {
+    background-color: #FFFFFF;
+    color: #2476FF;
+    border: 1px solid #2476FF;
+  } 
+  button:hover > i {
+    color: #2476FF;
+  }
+  .asana {
+    animation: move-left 1.5s ease-in-out;
+  }
+  .google {
+      animation: move-left 1.5s ease-in-out;
+  }
+  .googleAds {
+    animation: move-left 1.5s ease-in-out;
+  }
+  .attlasian {
+    animation: move-up 2s ease-in-out;
+  }
+  .paypal {
+    animation: move-up 1.5s ease-in-out;
+  }
+  .weave {
+    animation: move-up 1.5s ease-in-out;
+  }
+  .calendar {
+    animation: move-up 1.5s ease-in-out;
+  }
+  @keyframes move-left {
+    0% {
+      transform: translateX(150px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes move-up {
+    0% {
+      transform: translateY(150px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  .button {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav {
+    justify-content: flex-end;
+  }
+  .btn-1 {
+    display: none;
+  }
+  .ul-navList {
+    display: none;
+  }
+  .heroSection {
+    padding: 67px 30px 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .leftPart {
+    height: 305px;
+    text-align: center;
+  }
+  .heroSection .actions {
+    height: 48px;
+  }
+  .title h1 {
+    width: auto;
+    height: 48px;
+  }
+  .rightPart {
+    width: 712px;
+    height: 309px;
+  }
+  .asana {
+    top: 0;
+    left: 533px;
+  }
+  .calendar {
+    top: 229px;
+    left: 517px;
+  }
+  .weave {
+    top: 99px;
+    left: 414px;
+  }
+  .paypal {
+    top: 99px;
+    left: 112px;
+  }
+  .attlasian {
+    top: 0;
+    left: 287px;
+  }
+  .googleAds {
+    top: 209px;
+    left: 230px;
+  }
+  .google {
+    top: 0;
+    left: 110px;
+  }
+  .leftWing,
+  .rightWing {
+  width: 58.5px;
+  }
+  .pricingSection {
+    height: 1013px;
+  }
+  .plansFeaturesList {
+    justify-content: center;
+  }
+  .Pricing-table {
+    flex-direction: column;
+    align-items: center;
+  }
+  .plan {
+    max-width: 680px;
+  }
+  .planHeader {
+    align-items: center;
+  }
+  .planDivider {
+    min-width: 600px;
+  }
+  .planFooter {
+    align-items: center;
+  }
+  .actions {
+    justify-content: center;
+  }
+  .planFeatures {
+    max-width: 680px;
+    gap: 10px;
+  }
+  .planFeatureItem {
+    width: 335px;
+  }
+  .hireUsSection {
+    height: 984px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .leftPart-2 {
+    width: auto;
+    padding: 40px 30px 20px;
+    flex-direction: row;
+  }
+  .phrase {
+    width: 363px;
+    line-height: 24px;
+  }
+  .bottom-2 {
+    gap: 30px;
+  }
+  .person {
+    padding: 0;
+  }
+  .formData{
+    width: auto;
+    height: auto;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding: 80px 30px 40px;
+  }
+  .frame-15 {
+    flex-wrap: wrap;
+  }
+  .frame-23 {
+  gap: 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .heroSection {
+    padding: 67px 16px 0;
+  }
+  .title {
+    min-width: 328px;
+  }
+  .title h1 {
+    font-size: 26px;
+  }
+  .rightPart {
+    width: 328px;
+  }
+  .asana {
+    top: 0;
+    left: 248px;
+  }
+  .calendar {
+    top: 219px;
+    left: 239px;
+  }
+  .weave {
+    top: 99px;
+    left: 184px;
+  }
+  .paypal {
+    top: 99px;
+    left: 0px;
+  }
+  .attlasian {
+    top: 0;
+    left: 114px;
+  }
+  .googleAds {
+    top: 209px;
+    left: 106px;
+  }
+  .google {
+    top: 0;
+    left: 0;
+  }
+  .whyFrontSection {
+    height: 488px;
+    padding: 0 0 60px;
+    justify-content: space-between;
+  }
+  .whyFrontTitle {
+    padding: 0 16px;
+  }
+  .bulletList {
+    gap: 17px;
+    flex-direction: column;
+  }
+  .leftWing,
+  .rightWing {
+    display: none;
+  }
+  .bullet {
+    flex-direction: row;
+    padding: 0;
+  }
+  .pricingSection {
+    height: auto;
+    padding-bottom: 60px;
+  }
+  .plansFeaturesList {
+    padding: 0 16px;
+  }
+  .planDivider {
+    min-width: 248px;
+  }
+  .rowOne,
+  .rowTwo {
+    flex-direction: column;
+    width: 100%;
+  }
+  .planFeatureItem {
+    width: 100%;
+    justify-content: center;
+  }
+  .hireUsSection {
+    height: auto;
+    padding: 0;
+  }
+  .leftPart-2 {
+    padding: 40px 16px 20px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  .top-2 {
+    align-items: center;
+  }
+  .divider {
+    width: auto;
+  }
+  .phrase {
+    width: auto;
+  }
+  .bottom-2 {
+    align-items: center;
+  } 
+  .rightPart-2 {
+    padding: 30px 16px;
+  }
+  .form-group {
+    flex-direction: column;
+  }
+  .form-group:last-child {
+    flex-direction: row;
+  }
+  footer {
+    padding: 80px 16px 40px;
+  }
+  .frame-2 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .frame-14 {
+    align-items: center;
+  }
+  .nav-2 {
+    gap: 20px;
+    align-items: center;
+  }
+  .frame-15 {
+    flex-direction: column;
+  }
+  .frame-23 {
+    gap: 30px;
+    flex-direction: column;
+  }
+  .frame-24 {
+    flex-direction: column;
+  }
+}
